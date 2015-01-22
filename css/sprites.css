@@ -1,0 +1,346 @@
+.ad-one, .nav-backgroun_02, .orange-swirl, .people, .analytics-icon-hover, .analytics-icon, .article-icon, .avatar--facebook, .avatar-facebook-hover, .avatar-foursquare-hover, .avatar-foursquare, .avatar-mini, .avatar-twitter-hover, .avatar-twitter, .avatar-youtube-hover, .avatar-youtube, .banner-left, .banner-right, .bar-graph, .blue-divider, .blue-man, .blue-men, .blue-up-arrow, .check, .checklist-icon, .circle-back-arrow, .circle-forward-arrow, .dashboard-icon-hover, .dashboard-icon, .green-chart, .green-circle, .green-man, .green-men, .grey-circle, .grey-divider, .grey-gear, .grey-man, .halfcircle-back-arrow, .halfcircle-forward-arrow, .messages-icon-hover, .messages-icon, .nav-background_02, .orange-chart, .orange-down-arrow, .orange-man, .page-icon-hover, .page-icon, .pie-chart-1, .pie-chart-2, .promotions-icon-hover, .promotions-icon, .question-mark, .search-icon, .shadow, .tip-icon, .triangle-marker, .white-gear{
+	background: url(sprites.png) no-repeat;
+}
+
+.ad-one{
+	background-position: -841px -12px ;
+	width: 263px;
+	height: 150px;
+}
+
+.nav-backgroun_02{
+	background-position: 0 -370px ;
+	width: 1200px;
+	height: 110px;
+}
+
+.orange-swirl{
+	background-position: -748px -176px ;
+	width: 225px;
+	height: 160px;
+}
+
+.people{
+	background-position: -560px 0;
+	width: 268px;
+	height: 171px;
+}
+
+.analytics-icon-hover{
+	background-position: -50px -94px ;
+	width: 42px;
+	height: 50px;
+}
+
+.analytics-icon{
+	background-position: -3px -95px ;
+	width: 42px;
+	height: 50px;
+}
+
+.article-icon{
+	background-position: -86px -3px ;
+	width: 19px;
+	height: 23px;
+}
+
+.avatar--facebook{
+	background-position: -68px -71px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-facebook-hover{
+	background-position: -46px -71px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-foursquare-hover{
+	background-position: -67px -50px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-foursquare{
+	background-position: -46px -51px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-mini{
+	background-position: -2px -50px ;
+	width: 40px;
+	height: 40px;
+}
+
+.avatar-twitter-hover{
+	background-position: -64px -24px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-twitter{
+	background-position: -64px -4px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-youtube-hover{
+	background-position: -44px -24px ;
+	width: 16px;
+	height: 16px;
+}
+
+.avatar-youtube{
+	background-position: -43px -4px ;
+	width: 16px;
+	height: 16px;
+}
+
+.banner-left{
+	background-position: -22px -4px ;
+	width: 15px;
+	height: 40px;
+}
+
+.banner-right{
+	background-position: -3px -4px ;
+	width: 15px;
+	height: 40px;
+}
+
+.bar-graph{
+	background-position: -3px -180px ;
+	width: 420px;
+	height: 187px;
+}
+
+.blue-divider{
+	background-position: -89px -31px ;
+	width: 12px;
+	height: 37px;
+}
+
+.blue-man{
+	background-position: -147px -153px ;
+	width: 20px;
+	height: 20px;
+}
+
+.blue-men{
+	background-position: -386px -4px ;
+	width: 62px;
+	height: 42px;
+}
+
+.blue-up-arrow{
+	background-position: -128px -155px ;
+	width: 14px;
+	height: 9px;
+}
+
+.check{
+	background-position: -99px -155px ;
+	width: 22px;
+	height: 21px;
+}
+
+.checklist-icon{
+	background-position: -69px -154px ;
+	width: 23px;
+	height: 20px;
+}
+
+.circle-back-arrow{
+	background-position: -316px -114px ;
+	width: 22px;
+	height: 22px;
+}
+
+.circle-forward-arrow{
+	background-position: -316px -88px ;
+	width: 22px;
+	height: 22px;
+}
+
+.dashboard-icon-hover{
+	background-position: -253px -87px ;
+	width: 58px;
+	height: 58px;
+}
+
+.dashboard-icon{
+	background-position: -192px -88px ;
+	width: 58px;
+	height: 58px;
+}
+
+.green-chart{
+	background-position: -189px 0;
+	width: 192px;
+	height: 82px;
+}
+
+.green-circle{
+	background-position: -39px -154px ;
+	width: 24px;
+	height: 24px;
+}
+
+.green-man{
+	background-position: -107px -53px ;
+	width: 78px;
+	height: 82px;
+}
+
+.green-men{
+	background-position: -109px -6px ;
+	width: 62px;
+	height: 42px;
+}
+
+.grey-circle{
+	background-position: -9px -151px ;
+	width: 24px;
+	height: 24px;
+}
+
+.grey-divider{
+	background-position: -175px -152px ;
+	width: 1px;
+	height: 20px;
+}
+
+.grey-gear{
+	background-position: -489px -176px ;
+	width: 20px;
+	height: 20px;
+}
+
+.grey-man{
+	background-position: -489px -176px ;
+	width: 20px;
+	height: 20px;
+}
+
+.halfcircle-back-arrow{
+	background-position: -489px -176px ;
+	width: 22px;
+	height: 50px;
+}
+
+.halfcircle-forward-arrow{
+	background-position: -489px -176px ;
+	width: 22px;
+	height: 50px;
+}
+
+.messages-icon-hover{
+	background-position: -489px -192px ;
+	width: 57px;
+	height: 48px;
+}
+
+.messages-icon{
+	background-position: -488px -141px ;
+	width: 57px;
+	height: 48px;
+}
+
+.nav-background_02{
+	background-position: -432px -236px ;
+	width: 36px;
+	height: 111px;
+}
+
+.orange-chart{
+	background-position: -551px -177px ;
+	width: 192px;
+	height: 82px;
+}
+
+.orange-down-arrow{
+	background-position: -185px -160px ;
+	width: 10px;
+	height: 6px;
+}
+
+.orange-man{
+	background-position: -663px -264px ;
+	width: 78px;
+	height: 82px;
+}
+
+.page-icon-hover{
+	background-position: -498px -244px ;
+	width: 45px;
+	height: 50px;
+}
+
+.page-icon{
+	background-position: -427px -175px ;
+	width: 45px;
+	height: 50px;
+}
+
+.pie-chart-1{
+	background-position: -434px -56px ;
+	width: 80px;
+	height: 80px;
+}
+
+.pie-chart-2{
+	background-position: -346px -88px ;
+	width: 80px;
+	height: 80px;
+}
+
+.promotions-icon-hover{
+	background-position: -505px -3px ;
+	width: 50px;
+	height: 50px;
+}
+
+.promotions-icon{
+	background-position: -453px -2px ;
+	width: 50px;
+	height: 50px;
+}
+
+.question-mark{
+	background-position: -476px -304px ;
+	width: 33px;
+	height: 37px;
+}
+
+.search-icon{
+	background-position: -206px -152px ;
+	width: 23px;
+	height: 22px;
+}
+
+.shadow{
+	background-position: -517px -308px ;
+	width: 61px;
+	height: 5px;
+}
+
+.tip-icon{
+	background-position: -239px -153px ;
+	width: 14px;
+	height: 23px;
+}
+
+.triangle-marker{
+	background-position: -524px -329px ;
+	width: 40px;
+	height: 10px;
+}
+
+.white-gear{
+	background-position: -612px -288px ;
+	width: 33px;
+	height: 37px;
+}
+
