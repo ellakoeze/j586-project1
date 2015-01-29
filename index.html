@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
+          <link href="css/sprites.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,31 +17,64 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!--typekit font script-->
+    <script src="//use.typekit.net/vmp8opj.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
   <!--top line of page-->
-   <div class="row">
-        <div class="col-md-12"> MINI of Raleigh</div>
-   </div>
-   <!--navigation-->
-   <div class="container">
-        <div class="row">
-            <div class="col-md-12">navigation</div>
+   <div class="row utility-bar">
+      <div class="container-fluid">
+        <div class="col-md-12"> <a href="#" class="white-gear utility"></a><span class="blue-divider utility"></span> <a href="#" class="question-mark utility"></a><span class="blue-divider utility"></span><span class="utility" id="mini-of-raleigh">MINI of Raleigh</span></div>
         </div>
+      </div>
+   <!--navigation-->
+
+     
+   
+   
+  
+     <div class="nav-b">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+              <ul class="navigation">
+                              
+              <li><a href="#" class="dashboard-icon"></a><img class="shadows" src="images/pngs/shadow.png"></li>
+              <li><a href="#" class="blue-men" id="men-icon"></a><img class="shadows" src="images/pngs/shadow.png"></li>
+              <li><a href="#" class="messages-icon"></a><img class="shadows" src="images/pngs/shadow.png"></li>
+              
+              <li><a href="#" class="promotions-icon"></a><img class="shadows" src="images/pngs/shadow.png"></li>
+              <li><a href="#" class="page-icon"></a><img class="shadows" src="images/pngs/shadow.png"></li>
+              <li><a href="#" class="analytics-icon"></a><img class="shadows" src="images/pngs/shadow.png"></li>
+              </ul>
+               
+            </div>
+        </div>
+     </div>
    </div>
    <!--beginning of content-->
-   <div class="container">
-    <div class="row">
-        <div class="col-md-6">Dashboard</div>
-        <div class="col-md-6">Search</div>
+   <div class="container-fluid">
+    <div class="row dash-head">
+       <div class="col-md-6 hidden-phone"><h1>Dashboard</h1></div>
+       <div class="col-md-6 col-xs-12" >
+          <div class="right-inner-addon search-box">
+            <input type="search" class="form-control"/>
+          </div>
+       </div>
+
+      
     </div>
    </div>
    <!--beginning of main container-->
-   <div class="container">
-    <div class="row">
-        <div class="col-md-3">Announcements</div>
-        <div class="col-md-7">Sociis natoque penatibus et magnis dis parturient monted, nascetur ridiculus mus. Vivamus sagittis lacus</div>
-        <div class="col-md-2">arrows</div>
+   
+   <div class="container-fluid">
+    <div class="grey-box">
+      <div class="white-box">
+    <div class="row border-bottom">
+        <div class="col-md-2 col-sm-3 border-right" id="orange-text">ANNOUNCEMENTS</div>
+        <div class="col-md-7 col-sm-5">Sociis natoque penatibus et magnis dis parturient monted, nascetur ridiculus mus. Vivamus sagittis lacus</div>
+        <div class="col-md-1 col-sm-2 border-left"><div class="circle-back-arrow"></div><div class="circle-forward-arrow"></div></div>
     </div>
     <div class="row">
         <!--beginning of left hand column-->
@@ -143,7 +177,8 @@
         </div>
     
    </div>
-    
+    </div>
+    </div>
 <div class="row">
     <div class="col-md-12">footer</div>
 </div>
