@@ -27,17 +27,25 @@
 	height: 171px;
 }
 
+.analytics-icon{
+	background-position: -3px -95px ;
+	width: 42px;
+	height: 50px;
+}
+
 .analytics-icon:hover{
 	background-position: -50px -94px ;
 	width: 42px;
 	height: 50px;
 }
 
-.analytics-icon{
-	background-position: -3px -95px ;
+.analytics-icon:active{
+	background-position: -50px -94px ;
 	width: 42px;
 	height: 50px;
 }
+
+
 
 .article-icon{
 	background-position: -86px -3px ;
@@ -103,12 +111,14 @@
 	background-position: -22px -4px ;
 	width: 15px;
 	height: 40px;
+	display: inline-block;
 }
 
 .banner-right{
 	background-position: -3px -4px ;
 	width: 15px;
 	height: 40px;
+	display: inline-block;
 }
 
 .bar-graph{
@@ -196,6 +206,7 @@
 	background-position: -189px 0;
 	width: 192px;
 	height: 82px;
+	margin: 10px;
 }
 
 .green-circle{
@@ -278,6 +289,7 @@
 	background-position: -551px -177px ;
 	width: 192px;
 	height: 82px;
+	margin: 10px;
 }
 
 .orange-down-arrow{

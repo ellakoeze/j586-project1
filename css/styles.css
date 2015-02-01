@@ -316,8 +316,62 @@ a.task-link:hover {
     border-radius: .25em;
 }
 
+.box-shadow {
+    display: inline-block;
+    /*width: 225px;
+    margin-left: auto;
+    margin-right: auto;*/
+    box-shadow: 0px 2px 5px #888888;
+    border-radius: .25em;
+    padding-top: 40px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
 
+.banner-numbers {
+    text-align: center;
+    color: white;
+    background-color: #2394ee;
+    position: relative;
+    z-index: 3;
+    
+}
 
+.person-image {
+    z-index: 2;
+    position: relative;
+    top: 17px;
+    left: 110px;
+}
+
+.big-number {
+    font-size: 14pt;
+    padding-top: 5px;
+}
+
+.little-number {
+    font-size: 8pt;
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.chart {
+    background-size: contain;
+}
+
+.right-banners {
+    position: relative;
+    bottom: 33px;
+    left: 17px;
+    
+}
+
+.left-banners{
+    position: relative;
+    bottom: 33px;
+    left: 23px;
+}
 
 @media screen and (max-width: 1000px) {
   
@@ -376,12 +430,18 @@ ul.navigation  {
 }
 
 #referrals{
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 .social-channels {
     display: inline;
     margin-left: 0px;
+    
+}
+
+#phone-social-channels {
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 }
@@ -436,3 +496,7 @@ a#men-icon {
 #referrals{
     margin-top: 10px;
 }
+
+
+    
+

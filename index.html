@@ -74,7 +74,7 @@
     <div class="row border-bottom">
         <div class="col-md-2 col-sm-3 border-right grid" id="orange-text">ANNOUNCEMENTS</div>
         <div class="col-md-9 col-sm-5 grid" id="announcement-text">Sociis natoque penatibus et magnis dis parturient monted, nascetur ridiculus mus. Vivamus sagittis lacus</div>
-        <div class="col-md-1 col-sm-2 border-left grid" id="circle-arrows"><div class="circle-back-arrow"></div><div class="circle-forward-arrow"></div></div>
+        <div class="col-md-1 col-sm-2 border-left grid" id="circle-arrows"><a href="#" class="circle-back-arrow"></a><a href="#" class="circle-forward-arrow"></a></div>
     </div>
     <div class="row">
         <!--beginning of left hand column-->
@@ -155,8 +155,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 bar-graph"></div>
-                </div>
+                    <div id="graph-container"><div class="col-md-12 bar-graph"></div>
+                </div> </div>
            </div>
            <div class="col-md-3 col-sm-12 round-chart">
                 <div class="row">
@@ -170,7 +170,7 @@
                     </div>
                 </div>
            </div>
-           <div class="row border-bottom">
+           <div class="row border-bottom" id="phone-social-channels">
                 <div class="col-md-12 social-channels">
                   <label class="checkbox-inline">
                     <input type="checkbox" id="inlineCheckbox1" value="option1"> <span class="badge badge-facebook">Facebook</span>
@@ -187,9 +187,27 @@
                 </div>
            </div>
            <div class="row">
-                <div class="col-md-6">75 contacts</div>
-                <div class="col-md-6">17 customers</div>
-           </div>
+                <div class="col-md-6 col-sm-5">              
+                      <div class="person-image"><img src="images/pngs/green-man.png"></div>
+                       <div class="banner-left left-banners"></div>
+                    <div class="box-shadow">              
+                    <div class="banner-numbers"><div class="big-number">75 CONTACTS</div><div class="little-number">4 INFLUENCERS</div></div>
+                    <div class="green-chart chart"></div>
+                  </div>
+                <div class="banner-right right-banners"></div>
+                </div>
+                <div class="col-md-6 col-sm-5">
+                <div class="person-image"><img src="images/pngs/orange-man.png"></div>
+                       <div class="banner-left left-banners"></div>
+                    <div class="box-shadow">              
+                    <div class="banner-numbers"><div class="big-number">17 CUSTOMERS</div><div class="little-number">0 INFLUENCERS</div></div>
+                    <div class="orange-chart chart"></div>
+                  </div>
+                <div class="banner-right right-banners"></div>
+                </div>
+                
+                </div>
+              </div>
            <div class="row">
                 <div class="col-md-12">Did you know?</div>
            </div>
