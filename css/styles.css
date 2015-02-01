@@ -373,6 +373,30 @@ a.task-link:hover {
     left: 23px;
 }
 
+.info-box {
+    background-color: #2394ee;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    border-radius: .25em;
+}
+
+.info-text {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.forward-arrow{
+    float: right;
+    position: relative;
+    bottom: 70px;
+}
+
+.back-arrow{
+    position: relative;
+    top: 55px;
+}
+
 @media screen and (max-width: 1000px) {
   
 .hidden-phone {
