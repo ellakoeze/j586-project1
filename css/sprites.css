@@ -199,6 +199,8 @@
 	background-position: -39px -154px ;
 	width: 24px;
 	height: 24px;
+	display: inline-block;
+	
 }
 
 .green-man{
@@ -213,10 +215,12 @@
 	height: 42px;
 }
 
-.grey-circle{
+.green-circle:hover{
 	background-position: -9px -151px ;
 	width: 24px;
 	height: 24px;
+	display: inline-block;
+	
 }
 
 .grey-divider{

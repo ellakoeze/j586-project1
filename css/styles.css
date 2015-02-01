@@ -115,14 +115,26 @@ body {
 
 .white-box {
     background-color: white;
-    padding: 1.5em;
     border-color: #eeeeee;
     border-width: 1px;
     border-style: solid;
     box-shadow: -1px 0 #eee;
     box-shadow: 1px 0 #eee;
+    padding-right: 1.1em;
+    padding-left: 1.1em;
     
 }
+
+
+
+.grid {
+    padding-top: 1em;
+    height: 3.3em;
+    margin: 0px;
+}
+
+
+
 
 .border-right{
     border-right-color: #eeeeee;
@@ -147,6 +159,103 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
+
+.category-title{
+    font-size: 24pt;
+    color: #2498f4;
+    padding-top: 15px;
+}
+
+.subtitle {
+     font-size: 16pt;
+     padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a.task-link {
+    color: #2498f4;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+
+a.task-link:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+
+
+
+.circle{
+    background-image: url(../images/pngs/green-circle.png);
+    background-repeat: no-repeat;
+    background-position: 0px 15px;
+    margin-left: 15px;
+    
+}
+
+.circle:hover{
+    background-image: url(../images/pngs/grey-circle.png);
+    background-repeat: no-repeat;
+}
+
+.list-number {
+    color:white;
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+    font-size: 12pt;
+    margin-right: 15px;
+}
+    
+
+.person-count{
+    display: inline;
+    background-image: url(../images/pngs/blue-man.png);
+    background-repeat: no-repeat;
+    background-position: 15% 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc ;
+    border-radius: .25em;
+    float: right;
+    padding-left: 33px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-size: 12pt;
+    margin-right: 10px;
+}
+
+.task-link:hover .person-count {
+    background-image: url(../images/pngs/grey-man.png);
+    background-repeat: no-repeat;
+}
+
+.smalltext {
+    font-size: 8pt;
+    color: #999999;
+}
+
+.mediumtext {
+    font-size: 12pt;
+    color:#999999
+}
+
+.recommendation {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: dotted 1px #eee;
+}
+
+.recommendation-item {
+    margin-left: 5px;
+   
+}
+
 
 @media screen and (max-width: 1000px) {
   
@@ -186,6 +295,20 @@ ul.navigation  {
     padding-left: 0px !important;
 }
 
+#announcement-text{
+    padding-top: 0px;
+}
+
+.smalltext {
+    display: none;
+}
+
+.recommendation-item {
+    padding-left: 50px;
+    position: relative;
+    bottom: 15px;
+}
+
 }
 
 
@@ -203,4 +326,17 @@ a#men-icon {
 
 #orange-text {
     color: #ff9b13;
+}
+
+#circle-arrows{
+    padding-right: 10px;
+}
+
+#gear {
+    float: right;
+    padding-top: 11px;
+}
+
+#smallbox {
+    width: 57px;
 }
