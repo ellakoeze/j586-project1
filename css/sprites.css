@@ -115,6 +115,9 @@
 	background-position: -3px -180px ;
 	width: 420px;
 	height: 187px;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .blue-divider{
@@ -281,6 +284,8 @@
 	background-position: -185px -160px ;
 	width: 10px;
 	height: 6px;
+	display: inline-block;
+	margin-left: 10px;
 }
 
 .orange-man{
@@ -305,12 +310,16 @@
 	background-position: -434px -56px ;
 	width: 80px;
 	height: 80px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .pie-chart-2{
 	background-position: -346px -88px ;
 	width: 80px;
 	height: 80px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .promotions-icon:hover{

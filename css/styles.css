@@ -10,6 +10,16 @@ body {
   
 }
 
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 .container-fluid{
     margin-left: 7em;
@@ -240,7 +250,7 @@ a.task-link:hover {
 
 .mediumtext {
     font-size: 12pt;
-    color:#999999
+    color:#777777
 }
 
 .recommendation {
@@ -248,13 +258,65 @@ a.task-link:hover {
     margin-right: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: dotted 1px #eee;
+    border-bottom: dotted 2px #eee;
 }
 
 .recommendation-item {
     margin-left: 5px;
    
 }
+
+.mini-header {
+    color: #777777;
+    font-size: 10pt;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+
+.round-chart{
+   text-align: center;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    border-image:
+      linear-gradient(to right, #ddd, #fff) 1 100%; 
+}
+
+.social-channels {
+    margin-left: 175px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.badge-facebook {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #114570;
+    border-radius: .25em;
+}
+
+.badge-twitter {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #2298f4;
+    border-radius: .25em;
+}
+
+.badge-foursquare {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #3a599b;
+    border-radius: .25em;
+}
+
+.badge-google {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #31cc66;
+    border-radius: .25em;
+}
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -309,6 +371,19 @@ ul.navigation  {
     bottom: 15px;
 }
 
+.round-chart{
+    border: none;
+}
+
+#referrals{
+    margin-top: 0px;
+}
+
+.social-channels {
+    display: inline;
+    margin-left: 0px;
+}
+
 }
 
 
@@ -339,4 +414,25 @@ a#men-icon {
 
 #smallbox {
     width: 57px;
+}
+
+
+#date-range {
+    padding: 0px;
+    font-size: 10pt;
+    color: #666666;
+    height: 30px;
+    border-radius: .25em;
+}
+
+#date-range-text {
+    margin: 10px;
+}
+
+#dropdown-text {
+    padding-right: 10px;
+}
+
+#referrals{
+    margin-top: 10px;
 }
