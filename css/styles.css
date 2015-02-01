@@ -318,9 +318,6 @@ a.task-link:hover {
 
 .box-shadow {
     display: inline-block;
-    /*width: 225px;
-    margin-left: auto;
-    margin-right: auto;*/
     box-shadow: 0px 2px 5px #888888;
     border-radius: .25em;
     padding-top: 40px;
@@ -379,23 +376,62 @@ a.task-link:hover {
     display: inline-block;
     margin: 20px;
     border-radius: .25em;
+    position: relative;
 }
 
 .info-text {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding: 55px;
+    
+    
 }
 
 .forward-arrow{
     float: right;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    left: 98%;
+    bottom: 40%;
 }
+    
+
 
 .back-arrow{
-    position: relative;
-    top: 55px;
+    position: absolute;
+    left: 0%;
+    bottom: 40%;
 }
+
+.ad-row{
+    background-color: #2394ee;
+    margin: auto;
+    
+}
+
+.ad-background{
+    background-color: white;
+    border-radius: .5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    height: 160px;
+}
+
+.people-text{
+    text-align: center;
+    background-color: #33cc66;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: .25em;
+}
+
+
+/*smaller screen size adjestments*/
+
 
 @media screen and (max-width: 1000px) {
   
@@ -468,9 +504,16 @@ ul.navigation  {
     padding-bottom: 20px;
 }
 
+.forward-arrow{
+    
+    left: 94%;
+    
+}
+    
+
 }
 
-
+/* ids */
 
 
 #mini-of-raleigh {
@@ -521,6 +564,18 @@ a#men-icon {
     margin-top: 10px;
 }
 
+#version-text {
+    color: #fe7f13;
+    display: inline-block;
+    font-size: 16pt;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 1;
+}
 
+#people-ad{
+    overflow: visible;
+}
     
 

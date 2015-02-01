@@ -16,15 +16,24 @@
 }
 
 .orange-swirl{
-	background-position: -748px -176px ;
+	background-position: -748px -176px;
 	width: 225px;
 	height: 160px;
+	display: inline-block;
+	float: right;
+	
+	
 }
 
 .people{
 	background-position: -560px 0;
 	width: 268px;
 	height: 171px;
+	position: relative;
+	z-index: 7;
+	bottom: 12px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .analytics-icon{
