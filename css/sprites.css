@@ -66,54 +66,65 @@
 	background-position: -68px -71px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
-.avatar-facebook-hover{
+.avatar--facebook:hover{
 	background-position: -46px -71px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
-.avatar-foursquare-hover{
+.avatar-foursquare:hover{
 	background-position: -67px -50px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
 .avatar-foursquare{
 	background-position: -46px -51px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
 .avatar-mini{
 	background-position: -2px -50px ;
 	width: 40px;
 	height: 40px;
+	display: inline-block;
+	
+	
 }
 
-.avatar-twitter-hover{
+.avatar-twitter:hover{
 	background-position: -64px -24px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
 .avatar-twitter{
 	background-position: -64px -4px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
-.avatar-youtube-hover{
+.avatar-youtube:hover{
 	background-position: -44px -24px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
 .avatar-youtube{
 	background-position: -43px -4px ;
 	width: 16px;
 	height: 16px;
+	display: inline-block;
 }
 
 .banner-left{
@@ -161,6 +172,8 @@
 	background-position: -128px -155px ;
 	width: 14px;
 	height: 9px;
+	display: inline-block;
+	margin-left: 70px;
 }
 
 .check{
@@ -250,6 +263,9 @@
 	background-position: -175px -152px ;
 	width: 1px;
 	height: 20px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
 }
 
 .grey-gear{
